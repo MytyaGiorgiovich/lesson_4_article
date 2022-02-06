@@ -1,0 +1,131 @@
+/* &display=swap */
+
+@import "null.css";
+
+@font-face {
+	font-family: "Neue Montreal";
+	src: url("../fonts/NeueMontreal-Bold.woff2") format("woff2"), url("../fonts/NeueMontreal-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond";
+	src: url("../fonts/EBGaramond-Bold.woff2") format("woff2"), url("../fonts/EBGaramond-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond";
+	src: url("../fonts/EBGaramond-BoldItalic.woff2") format("woff2"), url("../fonts/EBGaramond-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EB Garamond";
+	src: url("../fonts/EBGaramond-MediumItalic.woff2") format("woff2"), url("../fonts/EBGaramond-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Manrope";
+	src: url("../fonts/Manrope-Regular.woff2") format("woff2"), url("../fonts/Manrope-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Manrope";
+	src: url("../fonts/Manrope-Bold.woff2") format("woff2"), url("../fonts/Manrope-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Manrope", sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+}
+span.name-one {
+	font-weight: 700;
+	font-size: 20px;
+}
+.main-title {
+	font-family: "EB Garamond", serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.6;
+	text-align: center;
+}
+.name-menu {
+	font-family: "EB Garamond", serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.5;
+}
+.list li {
+	font-family: "EB Garamond", serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+.title {
+	font-family: "NeueMontreal", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	text-shadow: 1px 1px 20px #000;
+}
+.important-text {
+	font-weight: 700;
+	font-size: 20px;
+	color: #f03e3e;
+}
+.back,
+.resource {
+	font-family: "EB Garamond", serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: lowercase;
+	color: grey;
+}
+.release-date {
+	color: rgba(31, 135, 31, 0.61);
+	text-decoration: underline;
+}
+
+.back {
+	text-decoration: line-through;
+}
+.block-text {
+	text-indent: 30px;
+}
+[class*="-test"] {
+	letter-spacing: 5px;
+}
+[class*="-testtwo"] {
+	word-spacing: 50px;
+}
+.paragraph-text {
+	text-decoration: overline;
+}
+.paragraph-align {
+	text-align: right;
+	color: rgba(128, 128, 0, 0.618);
+	text-decoration: underline;
+}
+.paragraph-decoration {
+	text-decoration: line-through;
+	color: rgba(44, 44, 175, 0.542);
+}
